@@ -1,0 +1,36 @@
+.product-source-cart{
+    display: grid;
+    height: 360px;
+    grid-template-columns: 1fr 400px;
+    grid-gap: 40px;
+    margin-top: 16px;
+}
+.product-source-cart > div{
+    padding: 20px;
+}
+.sum-price{
+    margin: 8px;
+}
+.price-sale{
+    font-size: 30px;
+    font-weight: bold;
+    color: #EC5252;
+}
+.price-root{
+    margin-left: 8px;
+}
+.pay-source{
+    padding: 8px;
+    margin: 4px;
+}
+.pay-source button{
+    background-color: #EC5252;
+    width: 90%;
+    padding: 10px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+}

@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website bán khóa học online</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body style="background-color: #F5F5F5;">
+    <div class="container">
+        <!-- Header start -->
+        <header>
+            <section class="header-nav clearfix">
+                <nav>
+                    <ul class="root">
+                        <li><a href="#">Trang chủ</a></li>
+                        <li><a href="#">Khóa học</a>
+                            <ul class="submenu">
+                                <li><a href="./list-course/language.html">Ngoại ngữ</a></li>
+                                <li><a href="./list-course/marketing.html">Marketing</a></li>
+                                <li><a href="./list-course/design.html">Thiết kế</a></li>
+                                <li><a href="./list-course/it.html">Công nghệ thông tin</a></li>
+                                <li><a href="./list-course/personal.html">Phát triển cá nhân</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./contact/contact.html">Liên hệ</a>
+
+                        </li>
+                        <li><a href="#">Hỏi Đáp</a></li>
+                    </ul>
+                </nav>
+                <section class="search">
+                    <form action="#">
+                        <input type="text" style="padding: 6px 14px" name="" id=""
+                            placeholder="Tìm khóa học, giảng viên" required>
+                    </form>
+                </section>
+                <div class="product-cart;">
+                    <a href="./cart/cart.html">
+                        <img src="./assets/cart3.png" alt="cart" width="35px" height="35px" style="margin-top: 6px;">
+                    </a>
+                </div>
+            </section>
+        </header>
+        <!-- Header end -->
+        <!-- Main start -->
+        <main>
+            <!-- Banner -->
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <img src="assets/banner/banner1.jpg" style="width:100%; height: 400px;">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="assets/banner/banner2.jpg" style="width:100%; height: 400px;">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="assets/banner/banner3.jpg" style="width:100%; height: 400px;">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="assets/banner/banner4.jpg" style="width:100%; height: 400px;">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="assets/banner/banner5.jpg" style="width:100%; height: 400px;">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+            </div>
+            <br>
+
+            <div style="text-align:center; margin-top: -60px;">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+
+            <!-- Main title -->
+            <h2 class="main-title">TOP BÁN CHẠY</h2>
+            <!-- Producet list TOP SALE -->
+            <div class="product-list">
+                <!-- item 1 -->
+                <div class="product-item" style="position: relative;" onmouseover="showIcon(0)"
+                    onmouseout="hideIcon(0)">
+                    <div class="product-item-image">
+                        <div class="sale-off">
+                            <p class="sale-styles">-72%</p>
+                        </div>
+                        <img src="./assets/product-top1.jpg" alt="product1" width="300px"
+                            style="border-top-left-radius: 8px; border-top-right-radius: 8px;">
+                    </div>
+                    <div class="product-item-content">
+                        <p class="sourse-content">Học đệm hát Guitar</p>
+                        <div class="clearfix author-content">
+                            <span>
+                                Đỗ Trung Thành
+                            </span>
+                            <span class="price-sale-sourse">
+                                <del>700.000<sup>đ</sup></del>
+                            </span>
+                        </div>
+                        <div class="rate">
+                            <span>
+                                <img src="./assets/star.png" alt="" width="16px" height="16px">
+                                <img src="./assets/star.png" alt="" width="16px" height="16px">
+                                <img src="./assets/star.png" alt="" width="16px" height="16px">
+                                <img src="./assets/star.png" alt="" width="16px" height="16px">
+                                <img src="./assets/star.png" alt="" width="16px" height="16px">
+                            </span>
+                            <span class="price-sourse">199.000<sup>đ</sup></span>
+                        </div>
+                    </div>
+                    <img class="showIcon" src="assets/icon.png" alt="icon"
+                        style="position: absolute;width: 50%; top: 40%; left: 25%;display: none;" />
+                </div>
+                <!-- item 2 -->
+                <div class="product-item" style="position: relative;" onmouseover="showIcon(1)"
+                    onmouseout="hideIcon(1)">
+                    <div class="product-item-image">
+                        <div class="sale-off">
+                            <p class="sale-styles">-34%</p>
+                        </div>
+                        <img src="./assets/product-top2.jpg" alt="product1" width="290px"
+                            style="border-top-left-radius: 8px; border-top-right-radius: 8px;">
+                    </div>
+                    <div class="product-item-content">
+                        <div class="sourse-content">Khởi nghiệp thực chiến</div>
+                        <div class="clearfix author-content">
+                            <span>
+                                Nguyễn Minh Cường
+                            </span>
+                            <span class="price-sale-sourse">
+                                <del>600.000<sup>đ</sup></del>
+                            </span>
+                        </div>
+                        <div class="rate">
+                            <span>
+                                <img src="./assets/star.png" alt="" width="16px" height="16px">
+                                <img src="./assets/star.png" alt="" width="16px" height="16px">
+                                <img src="./assets/star.png" alt="" width="16px" height="16px">
+                                <img src="./assets/star.png" alt="" width="16px" height="16px">
+                                <img src="./assets/star.png" alt="" width="16px" height="16px">
+                            </span>
+                            <span class="price-sourse">399.000<sup>đ</sup></span>
+                        </div>
+                    </div>
+                    <img class="showIcon" src="assets/icon.png" alt="icon"
+                        style="position: absolute;width: 50%; top: 40%; left: 25%;display: none;" />
+                </div>
+                <!-- item 3 -->
+                <div class="product-item" style="position: relative;" onmouseover="showIcon(2)"
+                    onmouseout="hideIcon(2)">
+                    <div class="product-item-image">
+                        <div class="sale-off">
+                            <p class="sale-styles">-63%</p>
+                        </div>
+                        <img src="./assets/product-top3.jpg" alt="product1" width="290px"
+                            style="border-top-left-radius: 8px; border-top-right-radius: 8px;">
+                    </div>
+                    <div class="product-item-content">
+                        <div class="sourse-content">Bán hàng giá cao</div>
+                        <div class="clearfix author-content">
+                            <span>
+                                Phạm Thành Long
+                            </span>
+                            <span class="price-sale-sourse">
+                                <del>800.000<sup>đ</sup></del>
+                            </span>
+                        </div>
+                        <div class="rate">
+                            <span>
+                                <img src="./assets/star.png" alt="" width="16px" height="16px
+                                ">
+                                <img src="./assets/star.png" alt="" width="16px" height="16px
+                                ">
+                                <img src="./assets/star.png" alt="" width="16px" height="16px
+                                ">
+                                <img src="./assets/star.png" alt="" width="16px" height="16px
+                                ">
+                                <img src="./assets/star.png" alt="" width="16px" height="16px
+                                ">
+                            </span>
+                            <span class="price-sourse">299.000<sup>đ</sup></span>
+                        </div>
+                    </div>
+                    <img class="showIcon" src="assets/icon.png" alt="icon"
+                        style="position: absolute;width: 50%; top: 40%; left: 25%;display: none;" />
+                </div>
+                <!-- item 4 -->
+                <div class="product-item" style="position: relative;" onmouseover="showIcon(3)"
+                    onmouseout="hideIcon(3)">
+                    <div class="product-item-image">
+                        <div class="sale-off">
+                            <p class="sale-styles">-40%</p>
+                        </div>
+                        <img src="./assets/product-top4.jpg" alt="product1" width="290px"
+                            style="border-top-left-radius: 8px; border-top-right-radius: 8px;">
+                    </div>
+                    <div class="product-item-content">
+                        <div class="sourse-content">Quản trị cuộc đời</div>
+                        <div class="clearfix author-content">
+                            <span>
+                                Lê Thẩm Dương
+                            </span>
+                            <span class="price-sale-sourse">
+                                <del>1.000.000<sup>đ</sup></del>
+                            </span>
+                        </div>
+                        <div class="rate">
+                            <span>
+                                <img src="./assets/star.png" alt="" width="16px" height="16px">
+                                <img src="./assets/star.png" alt="" width="16px" height="16px">
+                                <img src="./assets/star.png" alt="" width="16px" height="16px">
+                                <img src="./assets/star.png" alt="" width="16px" height="16px">
+                                <img src="./assets/star.png" alt="" width="16px" height="16px">
+                            </span>
+                            <span class="price-sourse">599.000<sup>đ</sup></span>
+                        </div>
+                    </div>
+                    <img class="showIcon" src="assets/icon.png" alt="icon"
+                        style="position: absolute;width: 50%; top: 40%; left: 25%;display: none;" />
+
+                </div>
+            </div>
+
+            <div class="product-list">
+                <!-- item 1 -->
+                <div class="product-item" style="position: relative;" onmouseover="showIcon(0)"
+                    onmouseout="hideIcon(0)">
+                    <div class="product-item-image">
+                        <div class="sale-off">
+                            <p class="sale-styles">-72%</p>
+                        </div>
+                        <img src="./assets/product-top1.jpg" alt="product1" width="300px"
+                            style="border-top-left-radius: 8px; border-top-right-radius: 8px;">
+                    </div>
+                    <div class="product-item-content">
+                        <p class="sourse-content">Học đệm hát Guitar</p>
+                        <div class="clearfix author-content">
+                            <span>
+                                Đỗ Trung Thành
+                            </span>
+                            <span class="price-sale-sourse">
+                                <del>700.000<sup>đ</sup></del>
+                            </span>
+                        </div>
+                        <div class="rate">
+                            <span>
+                                <img src="./assets/star.png" alt="" width="16px" height="16px">
+                                <img src="./assets/star.png" alt="" width="16px" height="16px">
+                                <img src="./assets/star.png" alt="" width="16px" height="16px">
+                                <img src="./assets/star.png" alt="" width="16px" height="16px">
+                                <img src="./assets/star.png" alt="" width="16px" height="16px">
+                            </span>
+                            <span class="price-sourse">199.000<sup>đ</sup></span>
+                        </div>
+                    </div>
+                    <img class="showIcon" src="assets/icon.png" alt="icon"
+                        style="position: absolute;width: 50%; top: 40%; left: 25%;display: none;" />
+                </div>
+                <!-- item 2 -->
+                <div class="product-item" style="position: relative;" onmouseover="showIcon(1)"
+                    onmouseout="hideIcon(1)">
+                    <div class="product-item-image">
+                        <div class="sale-off">
+                            <p class="sale-styles">-34%</p>
+                        </div>
+                        <img src="./assets/product-top2.jpg" alt="product1" width="290px"
+                            style="border-top-left-radius: 8px; border-top-right-radius: 8px;">
+                    </div>
+                    <div class="product-item-content">
+                        <div class="sourse-content">Khởi nghiệp thực chiến</div>
+                        <div class="clearfix author-content">
+                            <span>
+                                Nguyễn Minh Cường
+                            </span>
+                            <span class="price-sale-sourse">
+                                <del>600.000<sup>đ</sup></del>
+                            </span>
+                        </div>
+                        <div class="rate">
+                            <span>
+                                <img src="./assets/star.png" alt="" width="16px" height="16px">
+                                <img src="./assets/star.png" alt="" width="16px" height="16px">
+                                <img src="./assets/star.png" alt="" width="16px" height="16px">
+                                <img src="./assets/star.png" alt="" width="16px" height="16px">
+                                <img src="./assets/star.png" alt="" width="16px" height="16px">
+                            </span>
+                            <span class="price-sourse">399.000<sup>đ</sup></span>
+                        </div>
+                    </div>
+                    <img class="showIcon" src="assets/icon.png" alt="icon"
+                        style="position: absolute;width: 50%; top: 40%; left: 25%;display: none;" />
+                </div>
+                <!-- item 3 -->
+                <div class="product-item" style="position: relative;" onmouseover="showIcon(2)"
+                    onmouseout="hideIcon(2)">
+                    <div class="product-item-image">
+                        <div class="sale-off">
+                            <p class="sale-styles">-63%</p>
+                        </div>
+                        <img src="./assets/product-top3.jpg" alt="product1" width="290px"
+                            style="border-top-left-radius: 8px; border-top-right-radius: 8px;">
+                    </div>
+                    <div class="product-item-content">
+                        <div class="sourse-content">Bán hàng giá cao</div>
+                        <div class="clearfix author-content">
+                            <span>
+                                Phạm Thành Long
+                            </span>
+                            <span class="price-sale-sourse">
+                                <del>800.000<sup>đ</sup></del>
+                            </span>
+                        </div>
+                        <div class="rate">
+                            <span>
+                                <img src="./assets/star.png" alt="" width="16px" height="16px
+                                ">
+                                <img src="./assets/star.png" alt="" width="16px" height="16px
+                                ">
+                                <img src="./assets/star.png" alt="" width="16px" height="16px
+                                ">
+                                <img src="./assets/star.png" alt="" width="16px" height="16px
+                                ">
+                                <img src="./assets/star.png" alt="" width="16px" height="16px
+                                ">
+                            </span>
+                            <span class="price-sourse">299.000<sup>đ</sup></span>
+                        </div>
+                    </div>
+                    <img class="showIcon" src="assets/icon.png" alt="icon"
+                        style="position: absolute;width: 50%; top: 40%; left: 25%;display: none;" />
+                </div>
+                <!-- item 4 -->
+                <div class="product-item" style="position: relative;" onmouseover="showIcon(3)"
+                    onmouseout="hideIcon(3)">
+                    <div class="product-item-image">
+                        <div class="sale-off">
+                            <p class="sale-styles">-40%</p>
+                        </div>
+                        <img src="./assets/product-top4.jpg" alt="product1" width="290px"
+                            style="border-top-left-radius: 8px; border-top-right-radius: 8px;">
+                    </div>
+                    <div class="product-item-content">
+                        <div class="sourse-content">Quản trị cuộc đời</div>
+                        <div class="clearfix author-content">
+                            <span>
+                                Lê Thẩm Dương
+                            </span>
+                            <span class="price-sale-sourse">
+                                <del>1.000.000<sup>đ</sup></del>
+                            </span>
+                        </div>
+                        <div class="rate">
+                            <span>
+                                <img src="./assets/star.png" alt="" width="16px" height="16px">
+                                <img src="./assets/star.png" alt="" width="16px" height="16px">
+                                <img src="./assets/star.png" alt="" width="16px" height="16px">
+                                <img src="./assets/star.png" alt="" width="16px" height="16px">
+                                <img src="./assets/star.png" alt="" width="16px" height="16px">
+                            </span>
+                            <span class="price-sourse">599.000<sup>đ</sup></span>
+                        </div>
+                    </div>
+                    <img class="showIcon" src="assets/icon.png" alt="icon"
+                        style="position: absolute;width: 50%; top: 40%; left: 25%;display: none;" />
+
+                </div>
+            </div>
+
+            <!-- <h2 class="main-title" style="margin-top: 64px; margin-bottom: 20px;">Giỏ Hàng</h2>
+            <div id="cart"
+                style="display: flex;flex-wrap: wrap; border-bottom: 1px solid black;justify-content: space-between;">
+            </div>
+            <h2 style="text-align: right; margin-top: 6px;">Tổng tiền: <span id="sum">0 đ</span> </h2> -->
+            
+            <!--  -->
+            <h2 class="target-title">CHINH PHỤC MỤC TIÊU CỦA BẠN</h2>
+            <div class="target-box">
+                <div class="target-box-container">
+                    <a href="#">
+                        <div class="target-box-content">
+                            <img src="./assets/target1.png" alt="target" style="border-radius: 8px;" width="100%"
+                                height="100%">
+                            <div class="target-subconent">
+                                <div class="target-subconent-image">
+                                    <img src="./assets/target-sub1.png" alt="target-sub1" width="50px" height="50px">
+                                </div>
+                                <div class="clearfix target-subconent-title">
+                                    <p style="font-size: 20px
+                                   ; font-weight: bold;">Đầu tư chứng khoán chuyên nghiệp</p>
+                                    <p>5 khóa</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="target-box-container">
+                    <a href="#">
+                        <div class="target-box-content">
+                            <img src="./assets/target2.jpg" alt="target" style="border-radius: 8px;" width="100%"
+                                height="100%">
+                            <div class="target-subconent">
+                                <div class="target-subconent-image">
+                                    <img src="./assets/target-sub2.png" alt="target-sub1" width="50px" height="50px">
+                                </div>
+                                <div class="clearfix target-subconent-title">
+                                    <p style="font-size: 20px
+                               ; font-weight: bold;">Combo marketing online</p>
+                                    <p>6 khóa</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="target-sub2">
+                <div class="target-box-container">
+                    <a href="#">
+                        <div class="target-box-content">
+                            <img src="./assets/target3.jpg" alt="target" style="border-radius: 8px;" width="100%"
+                                height="100%">
+                            <div class="target-subconent">
+                                <div class="target-subconent-image">
+                                    <img src="./assets/target-sub3.png" alt="target-sub1" width="50px" height="50px">
+                                </div>
+                                <div class="clearfix target-subconent-title">
+                                    <p style="font-size: 20px
+                                   ; font-weight: bold;">Giảm eo giữ dáng với Yoga</p>
+                                    <p>2 khóa</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="target-box-container">
+                    <a href="#">
+                        <div class="target-box-content">
+                            <img src="./assets/target1.png" alt="target" style="border-radius: 8px;" width="100%"
+                                height="100%">
+                            <div class="target-subconent">
+                                <div class="target-subconent-image">
+                                    <img src="./assets/target-sub4.png" alt="target-sub1" width="50px" height="50px">
+                                </div>
+                                <div class="clearfix target-subconent-title">
+                                    <p style="font-size: 20px
+                                   ; font-weight: bold;">Tự tin giao tiếp Tiếng Anh</p>
+                                    <p>3 khóa</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="target-box-container">
+                    <a href="#">
+                        <div class="target-box-content">
+                            <img src="./assets/target1.png" alt="target" style="border-radius: 8px;" width="100%"
+                                height="100%">
+                            <div class="target-subconent">
+                                <div class="target-subconent-image">
+                                    <img src="./assets/target-sub5.png" alt="target-sub1" width="50px" height="50px">
+                                </div>
+                                <div class="clearfix target-subconent-title">
+                                    <p style="font-size: 20px
+                                   ; font-weight: bold;">Bán hàng onlie </p>
+                                    <p>4 khóa</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!--  -->
+            <h1>GIẢNG VIÊN TIÊU BIỂU</h1>
+            <div class="box-tearch">
+                <div class="box-container">
+                    <div class="avatar">
+                        <img src="./assets/avatar1.jpg" alt="avatar1" style="border-radius: 50%" width="150px"
+                            height="150px">
+                    </div>
+                    <div class="name">Nguyễn Hiếu Yoga</div>
+                    <div class="title">Đại sứ Yoga Việt Nam - CEO Zenlife Yoga</div>
+                </div>
+                <div class="box-container">
+                    <div class="avatar">
+                        <img src="./assets/avatar2.jpg" alt="avatar1" style="border-radius: 50%" width="150px"
+                            height="150px">
+                    </div>
+                    <div class="name">Lê Thẩm Dương</div>
+                    <div class="title">Tiến sĩ - Diễn giả chuyên nghiệp - Chuyên gia tài chính, Lãnh đạo, Nhân sự....
+                    </div>
+                </div>
+                <div class="box-container">
+                    <div class="avatar">
+                        <img src="./assets/avatar3.jpg" alt="avatar1" style="border-radius: 50%" width="150px"
+                            height="150px">
+                    </div>
+                    <div class="name">Phạm Thành Long</div>
+                    <div class="title">Luật sư - Diễn giả</div>
+                </div>
+                <div class="box-container">
+                    <div class="avatar">
+                        <img src="./assets/avatar4.jpg" alt="avatar1" style="border-radius: 50%" width="150px"
+                            height="150px">
+                    </div>
+                    <div class="name">Huy Quần Hoa</div>
+                    <div class="title">Giảng viên PhotoShop</div>
+                </div>
+                <div class="box-container">
+                    <div class="avatar">
+                        <img src="./assets/avatar5.jpg" alt="avatar1" style="border-radius: 50%" width="150px"
+                            height="150px">
+                    </div>
+                    <div class="name">Phùng Phong</div>
+                    <div class="title">Kỷ lục gia Siêu trí nhớ Thế giới - Chủ tịch Tổ chức Trí nhớ Việt Nam</div>
+                </div>
+            </div>
+
+            <div class="title-giai-phap">
+                <h2>CÁC GIẢI PHÁP KHÁC TỪ UNICA</h2>
+            </div>
+            <div class="giai-phap">
+                <div class="content-giai-phap">
+                    <a href="#">
+                        <img src="./assets/gp1.jpg" alt="giai-phap" width="100%" style="    border-top-left-radius: 10px;
+                        border-top-right-radius: 10px;">
+                        <div class="title-content">Edubit.vn - Ai cũng có thể dạy học online</div>
+                        <div class="sub-content">Giải pháp elearning giúp tạo bài giảng, bài trắc nghiệm online chỉ với
+                            1 click chuột</div>
+                    </a>
+                </div>
+                <div class="content-giai-phap">
+                    <a href="#">
+                        <img src="./assets/gp2.jpg" alt="giai-phap" width="100%" style="    border-top-left-radius: 10px;
+                        border-top-right-radius: 10px;">
+                        <div class="title-content">Acabiz - Giải pháp đào tạo nội bộ cho doang nghiệp</div>
+                        <div class="sub-content">Nâng cao năng lực đội ngũ với nền tảng Acabiz và hơn 500 khóa học chọn
+                            lọc từ Unica</div>
+                    </a>
+                </div>
+            </div>
+        </main>
+        <!--footer  -->
+        <footer>
+            <div class="footer-content">
+                <div class="container-content">
+                    <div>
+                        <img src="./assets/logo-unica.png" alt="logo">
+                    </div>
+                    <div>
+                        Địa chỉ: 247 Cầu Giấy, Hà Nội
+                    </div>
+                    <div>
+                        Hotline: 0869093135
+                    </div>
+                    <div>
+                        Tải app Unica
+                    </div>
+                    <div>
+                        <img src="./assets/appstore.png" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/playstore.png" alt="">
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="content-title">Về Unica</div>
+                    <div>Giới thiệu</div>
+                    <div>Câu hỏi thường gặp</div>
+                    <div>Điều khoản dịch vụ</div>
+                    <div>Hướng dẫn thanh toán</div>
+                    <div>Góc chia sẻ</div>
+                    <div>Bảo mật</div>
+                </div>
+                <div class="content">
+                    <div class="content-title">Hợp tác liên kết</div>
+                    <div>Đăng ký giảng viên</div>
+                    <div>Giải pháp e-learning</div>
+                    <div>Đào tạo doanh nghiệp</div>
+                    <div>Hướng dẫn thanh toán</div>
+                    <div>Affiliate</div>
+                    <div>Agency</div>
+                </div>
+            </div>
+            <div class="footer-title">
+                <p>© Công ty cổ phần đào tạo trực tuyến Unica - ĐKKD: 0107695756 - Khóa học trực tuyến dành cho người đi
+                    làm</p>
+            </div>
+        </footer>
+    </div>
+    <script src="index.js"></script>
+    <script src="mouse.js"></script>
+    <script src="cart.js"></script>
+</body>
+
+</html>
