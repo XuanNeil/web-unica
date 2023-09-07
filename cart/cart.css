@@ -1,6 +1,5 @@
 .product-source-cart{
     display: grid;
-    height: 360px;
     grid-template-columns: 1fr 400px;
     grid-gap: 40px;
     margin-top: 16px;
