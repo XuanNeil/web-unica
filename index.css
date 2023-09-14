@@ -9,7 +9,7 @@
 }
 .header-nav {
     margin-top: 5px;
-    background-color: #B75797;
+    background-color: #F28E14;
 }
 .header-nav > nav {
     float: left;
@@ -23,14 +23,14 @@ ul.root > li {
 }
 ul.root > li > a {
     text-decoration: none;
-    color: #FFF;
+    color: #000000;
     padding: 0px 15px;
     line-height: 50px;
     display: block;
 }
 ul.root > li > a:hover {
-    background: #360B21;
-    color: rgb(110, 127, 179);
+    background: #000000;
+    color: white;
     transition: ease-in 0.35s;
 }
 ul.submenu {
@@ -71,8 +71,16 @@ ul > li:hover ul.submenu {
     border-radius: 25px;
     width: 200px;
     border-style: none;
-    background-color: #ffffff;
-    border: 1px solid #cccccc;
+    background-color: #F28E14;
+    border: 1px solid black;
+}
+
+.header-nav > section form input:focus-visible {
+    outline: none;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    black;
 }
 .header-nav > section form button {
     height: 28px;
@@ -197,11 +205,11 @@ img {vertical-align: middle;}
     justify-content: space-between;
     align-items: center;
 }
-.product-item:hover{
+/* .product-item:hover{
     box-shadow: 10px 10px 30px rgb(98, 98, 151);
     transition: ease-in 0.35s;
     transition: ease-out 0.15s;
-}
+} */
 .sale-off {
     position: absolute;
     left: 0px;
@@ -373,7 +381,7 @@ footer{
     margin-top: 8px;
 }
 .footer-content .content-title {
-    color: #F26C4F;
+    color: #F28E14;
     font-size: 24px;
 }
 .container-content > div {
